@@ -14,6 +14,8 @@ dependencies:
   #   # `public` flag doesn't have an effect dependencies of the `main` component.
   #   # All dependencies of `main` are public by default.
   #   public: true
+  espressif/mqtt: ">=1.0.0"
+  espressif/cjson: "^1.7.19"
   espressif/esp_lvgl_adapter: ^0.7.0
   lvgl/lvgl: ^9.5.0
   espressif/esp_wifi_remote: ^1.6.4

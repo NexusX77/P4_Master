@@ -16,7 +16,7 @@ void app_main(void)
         ESP_LOGI(TAG, "nvs_flash_init error");
     }
 
-    base_wifi_individual_t* wifi_dev = app_wifi_start();
+    base_wifi_individual_t* wifi_dev = wifi_app_start();
     wifi_dev->wifi_init(wifi_dev);
     wifi_dev->wifi_initiated_connect(wifi_dev,"401","22219207");
 
